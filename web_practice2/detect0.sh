@@ -1,1 +1,1 @@
-source shell_script/detect.sh;
+sudo -s source shell_script/web_practice2/detect.sh;
