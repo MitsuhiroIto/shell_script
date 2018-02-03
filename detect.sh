@@ -1,4 +1,4 @@
-git clone https://github.com/MitsuhiroIto/shell_script.git
+git clone https://github.com/MitsuhiroIto/YAD2K.git ~/YAD2K
 cd ~/YAD2K;
 source activate tensorflow_p36;
 wget http://pjreddie.com/media/files/yolo.weights
