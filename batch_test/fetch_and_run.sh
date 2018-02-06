@@ -1,5 +1,5 @@
 export FILE_NAME_AF="profile_canny.jpg"
-export BATCH_FILE_S3_URL_SRC="s3:///profile.jpg"
+export BATCH_FILE_S3_URL_SRC="s3://mitsu-batch-test/profile.jpg"
 export BATCH_FILE_S3_URL_DST="s3://mitsu-batch-test/profile_canny.jpg"
 
 aws s3 cp $BATCH_FILE_S3_URL_SRC .
