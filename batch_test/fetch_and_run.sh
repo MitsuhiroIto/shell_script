@@ -1,4 +1,4 @@
-ls
+echo $BATCH_FILE_S3_URL_SRC
 aws s3 cp $BATCH_FILE_S3_URL_SRC .
 ls
 python ./shell_script/batch_test/image_canny.py $BATCH_FILE_S3_URL_SRC
