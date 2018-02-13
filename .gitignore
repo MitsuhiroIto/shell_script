@@ -1,5 +1,6 @@
 .DS_Store
 .python-version
 *.ipynb_checkpoints
-*.pyc
+*.pic
 memo/
+memo*
